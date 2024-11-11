@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">J.Travel</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#popular" class="nav__link">Popular</a></li>
+            <li><a href="#explore" class="nav__link">Explore</a></li>
+          </ul>
+
+          <!-- CLOSE BUTTON -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- TOGGLE BUTTON -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home" id="home">
+        <img src="img/bg.jpg" alt="bg" class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h2 class="home__title">Explore the World</h2>
+            <h1 class="home__subtitle">Your Adventure Awaits</h1>
+            <p class="home__desc">
+              Discover breathtaking destinations, immerse yourself in new
+              culture, and create memories that will last a lifetime. Let us
+              help you plan the journey of your dreams.
+            </p>
+            <a href="#" class="home__btn"
+              >Start Your Journey
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="home__cards grid">
+            <article class="home__card">
+              <img src="img/spain.jpg" alt="image" class="card__img" />
+              <p class="img__content">Spain</p>
+            </article>
+
+            <article class="home__card">
+              <img src="img/cappadocia.jpg" alt="image" class="card__img" />
+              <p class="img__content">Cappadocia</p>
+            </article>
+
+            <article class="home__card">
+              <img src="img/italy.jpg" alt="image" class="card__img" />
+              <p class="img__content">Italy</p>
+            </article>
+
+            <article class="home__card">
+              <img src="img/santorini.jpg" alt="image" class="card__img" />
+              <p class="img__content">Santorini</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="about__title">
+              Discover the World <br />
+              One Destination at a Time
+            </h2>
+            <p class="about__desc">
+              With J.Travel, we believe travel is more than just a journey; it's
+              a life-changing experience that brings people closer, breaks down
+              cultural barriers, and opens up a world of possibilities. Our
+              mission is to inspire, guide, and empower travelers to explore
+              beyond the usual and experience each place in its full beauty.
+            </p>
+            <a href="#" class="home__btn"
+              >Explore the World <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+
+          <div class="about__image">
+            <img src="img/sakura.jpg" alt="aboutimg" class="about__img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- POPULAR -->
+      <section class="popular" id="popular">
+        <h2 class="section__title">
+          Breathtaking Escapes <br />
+          You Can't Miss
+        </h2>
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <img
+              src="img/bluelagoon.jpg"
+              alt="popularimg"
+              class="popular__img"
+            />
+            <h3 class="popular__title">Blue Lagoon</h3>
+
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>Iceland</span>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <img src="img/maldives.jpg" alt="popularimg" class="popular__img" />
+            <h3 class="popular__title">Maldives</h3>
+
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>South Asia</span>
+            </div>
+          </article>
+
+          <article class="popular__card">
+            <img src="img/greece.jpg" alt="popularimg" class="popular__img" />
+            <h3 class="popular__title">Navagio</h3>
+
+            <div class="popular__location">
+              <i class="ri-map-pin-line"></i>
+              <span>Greece</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- EXPLORE -->
+      <section class="explore" id="explore">
+        <div class="explore__container">
+          <div class="explore__image">
+            <img src="img/bg2.jpg" alt="exploreimg" class="explore__img" />
+            <div class="explore__shadow"></div>
+          </div>
+
+          <div class="explore__content container grid">
+            <div class="explore__data">
+              <h2 class="explore__title">
+                Journey to <br />
+                the Unseen
+              </h2>
+              <p class="explore__desc">
+                Imagine wandering through ancient cities, discovering hidden
+                beaches, or standing at the edge of vast, untamed landscapes.
+                Whether it's the vibrant markets of Marrakech, the serene fjords
+                of Norway, or the lively streets of Tokyo, every destination we
+                offer is a gateway to an unforgettable experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOIN -->
+      <section class="join">
+        <div class="join__container container grid">
+          <img src="img/banff.jpg" alt="joinimg" class="join__img" />
+
+          <div class="join__data">
+            <h1 class="join__title">
+              Unlock Exclusive <br />
+              Experiences
+            </h1>
+            <p class="join__desc">
+              From guided tours through ancient cities to hidden trails known
+              only to locals, every journey we create is unique. Our members
+              enjoy exclusive experiences, special deals, and insights that turn
+              each trip into a once-in-a-lifetime adventure.
+            </p>
+            <a href="#" class="home__btn"
+              >Join Our Community<i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div>
+            <a href="#" class="footer__logo">J.Travel</a>
+            <p class="footer__desc">
+              Ready to embark on your next adventure? Discover unforgettable
+              destinations and unique experiences with us. Start planning your
+              journey today!
+            </p>
+          </div>
+
+          <div class="footer__data grid">
+            <div>
+              <h3 class="footer__title">About</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">About Us</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Features</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">News & Blog</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Company</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">FAQ</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">History</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Testionials</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Contact</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">Call Center</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Support Center</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Terms & Services</a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link">Payments</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-youtube-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <span class="footer__copy">
+          &#169; Copyright J.Travel. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
